@@ -1,0 +1,372 @@
+html {
+	float: center;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+    background: url(../images/picture1_1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* height: 800px; */
+    margin: 0 auto;
+    padding-bottom: 275px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 870px;
+	background-color: none;
+}
+
+.logoimg1 {
+	position: relative;
+	top: 70px;
+	margin: 0 auto;
+	width: 260px;
+	
+}
+
+.logoimg2 {
+	position: absolute;
+	top: 80px;
+	left: 50px;
+	margin: 0 auto; 
+}
+
+main {
+	margin-top: 0em; 
+	margin-bottom: 0;
+}
+
+.text1 {
+	padding-top: 135px;
+	display: block;
+	text-align: center;
+	font-size: 50px;
+	color: #fff;
+	padding-bottom: 60px;
+	width: 100%;
+}
+
+section .wrapper {
+	margin-top: -286px;
+	border: 1px solid #beb8b8;
+	-ms-border-radius: 1%;
+	-moz-border-radius: 1%;
+	border-radius: 1%;
+	width: 334px;
+	background-color: #fff;
+	-ms-box-shadow: 0 1px 2px #beb8b8;
+	-moz-box-shadow: 0 1px 2px #beb8b8;
+	box-shadow: 0 1px 2px #beb8b8;
+}
+
+section .wrapper input:focus {
+	outline: none;
+	background-color: #fff;
+}
+
+.zip {
+	display: block;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 32px 32px 24px 32px; 
+	padding: 10px;
+	width: 265px;
+	color: #beb8b8;
+	font-size: 14px;
+}
+
+.pic3 {
+	display: block;
+	margin: 0 auto;
+}
+.text2 {
+	padding: 25px 68px 6px 42px;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	color: #938e8e;
+}
+.press {
+	display: block;
+	text-align: center;
+	border: none;
+	background-color: #227dd3;
+	width: 190px;
+	padding: 8px;
+	color: #fff;
+	font-size: 26px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.press:hover {
+	background-color: #0018c9;
+	transform: scale(1.1, 1.1);
+	transition-duration: 1s;
+}
+
+content .wrapper {
+	padding-top: 50px;
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 110px;
+}
+
+content h4 {
+	color: #000;
+	font-size: 25px;
+	margin: 0;
+	padding: 6px 0 10px 3px;
+
+}
+
+content p {
+	font-size: 14px;
+	color: #4f4e4e;
+	line-height: 150%;
+}
+
+content img {
+	padding-right: 23px;
+}
+
+content .images11text {
+	padding-right: 98px;
+}
+
+main .fon1 {
+	margin: 0 auto;
+	background: url(../images/fon1.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	/* height: 871px; */
+	padding-bottom: 310px;
+	width: 100%;
+}
+
+main .fon2 {
+	margin: 0 auto;
+	background: url(../images/fon2.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-bottom: 125px;
+	/* height: 480px; */
+	width: 100%;
+}
+
+main .fon3 {
+	margin: 0 auto;
+	background: url(../images/fon3.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	/* height: 635px; */	
+}
+
+main .fon1 .wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction:	column;
+}
+
+.fon1 h2, p, .fon2 h2, p {
+	padding: 0px;
+	margin:0px;
+}
+
+.fon1 .wrapper .first {
+	padding-bottom: 40px;
+}
+
+.fon1 h2, .fon2 h2 {
+	color: #fff;
+	font-size: 40px;
+}
+
+.first, .second, .fon2text p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+.fon1 h2{
+	padding-top: 260px;
+	padding-bottom: 30px;
+}
+
+.fon2 .wrapper .fon2text {
+	padding-top: 30px;
+	padding-left: 360px;
+	margin-right: -50px;
+}
+
+.fon2 .wrapper .fon2text p {
+	padding-left: 9px;	
+	padding-top: 30px;
+	padding-bottom: 37px;
+}
+
+.download {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    -ms-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	width: 180px;
+    text-align: center;
+	margin-left: 15px;
+}
+
+.download:hover {
+	background-color: #eee;
+	color: #32f489;
+	background-color: #000;
+	transform: scale(1.1, 1.1);
+	transition-duration: 1s;
+}
+
+.fon3 p {
+	color: #a5a7ae;
+	font-size: 16px;
+}
+
+.fon3 .wrapper {
+    padding-bottom: 225px;
+    padding-top: 143px;
+}
+
+.wrapper .call {
+	display: block;
+	width: 430px;
+	height: 430px;
+	background-color: #ffffff9e;
+	-ms-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	padding-top: 130px;
+	-moz-box-sizing: border-box;	
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.wrapper .call .part1 input, .wrapper .call .part2 input {
+	width: 275px;
+	display: block;
+	height: 32px;
+	margin: 14px;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	align-items: center;
+	font-size: 14px;
+	padding-left: 14px;	
+}
+
+.wrapper .call .part3 input{
+    width: 275px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 27px;
+    font-size: 14px;
+	padding: 14px 0 52px 14px;
+/*    padding-left: 14px;
+    padding-bottom: 52px;
+    padding-top: 14px; */
+}
+
+.wrapper .call button  {   
+	display: block;
+	border: none;
+	background-color: #43a06d;
+	width: 60px;
+	height: 60px;
+	-ms-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	color: #fff;
+	align-items: center;
+	font-size: 35px;
+	margin: 0 auto;
+}
+
+.wrapper .call button:hover {
+	color: #32f489;
+	background-color: #000;
+	transform: scale(1.1, 1.1);
+	transition-duration: 1s;
+}
+
+.call input:focus, .call textarea:focus {
+	outline: none;
+	background-color: #fff;
+}
+
+footer {
+	background: url(../images/fon4.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 45px;
+	margin-top: -165px;
+}
+
+footer p{
+	padding: 14px;
+	font-size: 14px;
+	margin: 0px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+
+.images11 img:hover, .images22 img:hover {
+	transform: scale(1.2, 1.2);
+	transition-duration: 1s;
+}
+
+
+@media screen and (max-width:1000px) {
+
+content .wrapper {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 110px;
+}
+content h4 {
+	color: #000;
+	font-size: 25px;
+	margin: 0;
+}
+
+content p {
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #4f4e4e;
+	line-height: 150%;
+}
+
+content img {
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+}
+
+content .images11text {
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+}
+}
+
+
